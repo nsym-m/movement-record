@@ -27,6 +27,9 @@
 		172AA771284CA3E100B42DA4 /* movement_record_WatchKit_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172AA770284CA3E100B42DA4 /* movement_record_WatchKit_AppTests.swift */; };
 		172AA77B284CA3E100B42DA4 /* movement_record_WatchKit_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172AA77A284CA3E100B42DA4 /* movement_record_WatchKit_AppUITests.swift */; };
 		172AA77D284CA3E100B42DA4 /* movement_record_WatchKit_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172AA77C284CA3E100B42DA4 /* movement_record_WatchKit_AppUITestsLaunchTests.swift */; };
+		172AA7A2284CC01C00B42DA4 /* WalkingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172AA7A1284CC01C00B42DA4 /* WalkingView.swift */; };
+		172AA7A4284CC03200B42DA4 /* PushUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172AA7A3284CC03200B42DA4 /* PushUpView.swift */; };
+		172AA7A6284CC03F00B42DA4 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172AA7A5284CC03F00B42DA4 /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -127,6 +130,10 @@
 		172AA776284CA3E100B42DA4 /* movement-record WatchKit AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "movement-record WatchKit AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		172AA77A284CA3E100B42DA4 /* movement_record_WatchKit_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = movement_record_WatchKit_AppUITests.swift; sourceTree = "<group>"; };
 		172AA77C284CA3E100B42DA4 /* movement_record_WatchKit_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = movement_record_WatchKit_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		172AA797284CADC600B42DA4 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		172AA7A1284CC01C00B42DA4 /* WalkingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkingView.swift; sourceTree = "<group>"; };
+		172AA7A3284CC03200B42DA4 /* PushUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushUpView.swift; sourceTree = "<group>"; };
+		172AA7A5284CC03F00B42DA4 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -178,6 +185,7 @@
 		172AA71A284CA3D600B42DA4 = {
 			isa = PBXGroup;
 			children = (
+				172AA797284CADC600B42DA4 /* README.md */,
 				172AA725284CA3D700B42DA4 /* movement-record */,
 				172AA736284CA3DD00B42DA4 /* movement-recordTests */,
 				172AA740284CA3DD00B42DA4 /* movement-recordUITests */,
@@ -250,6 +258,7 @@
 		172AA756284CA3DF00B42DA4 /* movement-record WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
+				172AA798284CBE6300B42DA4 /* Views */,
 				172AA757284CA3DF00B42DA4 /* movement_recordApp.swift */,
 				172AA759284CA3DF00B42DA4 /* ContentView.swift */,
 				172AA75B284CA3DF00B42DA4 /* NotificationController.swift */,
@@ -286,6 +295,40 @@
 				172AA77C284CA3E100B42DA4 /* movement_record_WatchKit_AppUITestsLaunchTests.swift */,
 			);
 			path = "movement-record WatchKit AppUITests";
+			sourceTree = "<group>";
+		};
+		172AA798284CBE6300B42DA4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				172AA7A0284CBFF600B42DA4 /* Home */,
+				172AA79F284CBFEB00B42DA4 /* PushUp */,
+				172AA79D284CBFA700B42DA4 /* Walking */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		172AA79D284CBFA700B42DA4 /* Walking */ = {
+			isa = PBXGroup;
+			children = (
+				172AA7A1284CC01C00B42DA4 /* WalkingView.swift */,
+			);
+			path = Walking;
+			sourceTree = "<group>";
+		};
+		172AA79F284CBFEB00B42DA4 /* PushUp */ = {
+			isa = PBXGroup;
+			children = (
+				172AA7A3284CC03200B42DA4 /* PushUpView.swift */,
+			);
+			path = PushUp;
+			sourceTree = "<group>";
+		};
+		172AA7A0284CBFF600B42DA4 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				172AA7A5284CC03F00B42DA4 /* HomeView.swift */,
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -565,10 +608,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				172AA7A2284CC01C00B42DA4 /* WalkingView.swift in Sources */,
 				172AA75C284CA3DF00B42DA4 /* NotificationController.swift in Sources */,
 				172AA75A284CA3DF00B42DA4 /* ContentView.swift in Sources */,
 				172AA760284CA3DF00B42DA4 /* ComplicationController.swift in Sources */,
 				172AA758284CA3DF00B42DA4 /* movement_recordApp.swift in Sources */,
+				172AA7A6284CC03F00B42DA4 /* HomeView.swift in Sources */,
+				172AA7A4284CC03200B42DA4 /* PushUpView.swift in Sources */,
 				172AA75E284CA3DF00B42DA4 /* NotificationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
