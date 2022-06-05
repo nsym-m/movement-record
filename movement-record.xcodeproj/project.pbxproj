@@ -1,0 +1,1165 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		172AA727284CA3D700B42DA4 /* movement_recordApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172AA726284CA3D700B42DA4 /* movement_recordApp.swift */; };
+		172AA729284CA3D700B42DA4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172AA728284CA3D700B42DA4 /* ContentView.swift */; };
+		172AA72B284CA3DD00B42DA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 172AA72A284CA3DD00B42DA4 /* Assets.xcassets */; };
+		172AA72E284CA3DD00B42DA4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 172AA72D284CA3DD00B42DA4 /* Preview Assets.xcassets */; };
+		172AA738284CA3DD00B42DA4 /* movement_recordTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172AA737284CA3DD00B42DA4 /* movement_recordTests.swift */; };
+		172AA742284CA3DD00B42DA4 /* movement_recordUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172AA741284CA3DD00B42DA4 /* movement_recordUITests.swift */; };
+		172AA744284CA3DD00B42DA4 /* movement_recordUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172AA743284CA3DD00B42DA4 /* movement_recordUITestsLaunchTests.swift */; };
+		172AA748284CA3DD00B42DA4 /* movement-record WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 172AA747284CA3DD00B42DA4 /* movement-record WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		172AA74D284CA3DF00B42DA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 172AA74C284CA3DF00B42DA4 /* Assets.xcassets */; };
+		172AA753284CA3DF00B42DA4 /* movement-record WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 172AA752284CA3DF00B42DA4 /* movement-record WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		172AA758284CA3DF00B42DA4 /* movement_recordApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172AA757284CA3DF00B42DA4 /* movement_recordApp.swift */; };
+		172AA75A284CA3DF00B42DA4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172AA759284CA3DF00B42DA4 /* ContentView.swift */; };
+		172AA75C284CA3DF00B42DA4 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172AA75B284CA3DF00B42DA4 /* NotificationController.swift */; };
+		172AA75E284CA3DF00B42DA4 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172AA75D284CA3DF00B42DA4 /* NotificationView.swift */; };
+		172AA760284CA3DF00B42DA4 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172AA75F284CA3DF00B42DA4 /* ComplicationController.swift */; };
+		172AA762284CA3E100B42DA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 172AA761284CA3E100B42DA4 /* Assets.xcassets */; };
+		172AA765284CA3E100B42DA4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 172AA764284CA3E100B42DA4 /* Preview Assets.xcassets */; };
+		172AA771284CA3E100B42DA4 /* movement_record_WatchKit_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172AA770284CA3E100B42DA4 /* movement_record_WatchKit_AppTests.swift */; };
+		172AA77B284CA3E100B42DA4 /* movement_record_WatchKit_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172AA77A284CA3E100B42DA4 /* movement_record_WatchKit_AppUITests.swift */; };
+		172AA77D284CA3E100B42DA4 /* movement_record_WatchKit_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172AA77C284CA3E100B42DA4 /* movement_record_WatchKit_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		172AA734284CA3DD00B42DA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 172AA71B284CA3D600B42DA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 172AA722284CA3D700B42DA4;
+			remoteInfo = "movement-record";
+		};
+		172AA73E284CA3DD00B42DA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 172AA71B284CA3D600B42DA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 172AA722284CA3D700B42DA4;
+			remoteInfo = "movement-record";
+		};
+		172AA749284CA3DD00B42DA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 172AA71B284CA3D600B42DA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 172AA746284CA3DD00B42DA4;
+			remoteInfo = "movement-record WatchKit App";
+		};
+		172AA754284CA3DF00B42DA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 172AA71B284CA3D600B42DA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 172AA751284CA3DF00B42DA4;
+			remoteInfo = "movement-record WatchKit Extension";
+		};
+		172AA76D284CA3E100B42DA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 172AA71B284CA3D600B42DA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 172AA751284CA3DF00B42DA4;
+			remoteInfo = "movement-record WatchKit Extension";
+		};
+		172AA777284CA3E100B42DA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 172AA71B284CA3D600B42DA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 172AA746284CA3DD00B42DA4;
+			remoteInfo = "movement-record WatchKit App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		172AA783284CA3E100B42DA4 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				172AA753284CA3DF00B42DA4 /* movement-record WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		172AA787284CA3E100B42DA4 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				172AA748284CA3DD00B42DA4 /* movement-record WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		172AA723284CA3D700B42DA4 /* movement-record.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "movement-record.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		172AA726284CA3D700B42DA4 /* movement_recordApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = movement_recordApp.swift; sourceTree = "<group>"; };
+		172AA728284CA3D700B42DA4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		172AA72A284CA3DD00B42DA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		172AA72D284CA3DD00B42DA4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		172AA733284CA3DD00B42DA4 /* movement-recordTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "movement-recordTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		172AA737284CA3DD00B42DA4 /* movement_recordTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = movement_recordTests.swift; sourceTree = "<group>"; };
+		172AA73D284CA3DD00B42DA4 /* movement-recordUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "movement-recordUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		172AA741284CA3DD00B42DA4 /* movement_recordUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = movement_recordUITests.swift; sourceTree = "<group>"; };
+		172AA743284CA3DD00B42DA4 /* movement_recordUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = movement_recordUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		172AA747284CA3DD00B42DA4 /* movement-record WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "movement-record WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		172AA74C284CA3DF00B42DA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		172AA752284CA3DF00B42DA4 /* movement-record WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "movement-record WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		172AA757284CA3DF00B42DA4 /* movement_recordApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = movement_recordApp.swift; sourceTree = "<group>"; };
+		172AA759284CA3DF00B42DA4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		172AA75B284CA3DF00B42DA4 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		172AA75D284CA3DF00B42DA4 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		172AA75F284CA3DF00B42DA4 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		172AA761284CA3E100B42DA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		172AA764284CA3E100B42DA4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		172AA766284CA3E100B42DA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		172AA767284CA3E100B42DA4 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		172AA76C284CA3E100B42DA4 /* movement-record WatchKit AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "movement-record WatchKit AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		172AA770284CA3E100B42DA4 /* movement_record_WatchKit_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = movement_record_WatchKit_AppTests.swift; sourceTree = "<group>"; };
+		172AA776284CA3E100B42DA4 /* movement-record WatchKit AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "movement-record WatchKit AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		172AA77A284CA3E100B42DA4 /* movement_record_WatchKit_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = movement_record_WatchKit_AppUITests.swift; sourceTree = "<group>"; };
+		172AA77C284CA3E100B42DA4 /* movement_record_WatchKit_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = movement_record_WatchKit_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		172AA720284CA3D700B42DA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		172AA730284CA3DD00B42DA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		172AA73A284CA3DD00B42DA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		172AA74F284CA3DF00B42DA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		172AA769284CA3E100B42DA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		172AA773284CA3E100B42DA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		172AA71A284CA3D600B42DA4 = {
+			isa = PBXGroup;
+			children = (
+				172AA725284CA3D700B42DA4 /* movement-record */,
+				172AA736284CA3DD00B42DA4 /* movement-recordTests */,
+				172AA740284CA3DD00B42DA4 /* movement-recordUITests */,
+				172AA74B284CA3DD00B42DA4 /* movement-record WatchKit App */,
+				172AA756284CA3DF00B42DA4 /* movement-record WatchKit Extension */,
+				172AA76F284CA3E100B42DA4 /* movement-record WatchKit AppTests */,
+				172AA779284CA3E100B42DA4 /* movement-record WatchKit AppUITests */,
+				172AA724284CA3D700B42DA4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		172AA724284CA3D700B42DA4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				172AA723284CA3D700B42DA4 /* movement-record.app */,
+				172AA733284CA3DD00B42DA4 /* movement-recordTests.xctest */,
+				172AA73D284CA3DD00B42DA4 /* movement-recordUITests.xctest */,
+				172AA747284CA3DD00B42DA4 /* movement-record WatchKit App.app */,
+				172AA752284CA3DF00B42DA4 /* movement-record WatchKit Extension.appex */,
+				172AA76C284CA3E100B42DA4 /* movement-record WatchKit AppTests.xctest */,
+				172AA776284CA3E100B42DA4 /* movement-record WatchKit AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		172AA725284CA3D700B42DA4 /* movement-record */ = {
+			isa = PBXGroup;
+			children = (
+				172AA726284CA3D700B42DA4 /* movement_recordApp.swift */,
+				172AA728284CA3D700B42DA4 /* ContentView.swift */,
+				172AA72A284CA3DD00B42DA4 /* Assets.xcassets */,
+				172AA72C284CA3DD00B42DA4 /* Preview Content */,
+			);
+			path = "movement-record";
+			sourceTree = "<group>";
+		};
+		172AA72C284CA3DD00B42DA4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				172AA72D284CA3DD00B42DA4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		172AA736284CA3DD00B42DA4 /* movement-recordTests */ = {
+			isa = PBXGroup;
+			children = (
+				172AA737284CA3DD00B42DA4 /* movement_recordTests.swift */,
+			);
+			path = "movement-recordTests";
+			sourceTree = "<group>";
+		};
+		172AA740284CA3DD00B42DA4 /* movement-recordUITests */ = {
+			isa = PBXGroup;
+			children = (
+				172AA741284CA3DD00B42DA4 /* movement_recordUITests.swift */,
+				172AA743284CA3DD00B42DA4 /* movement_recordUITestsLaunchTests.swift */,
+			);
+			path = "movement-recordUITests";
+			sourceTree = "<group>";
+		};
+		172AA74B284CA3DD00B42DA4 /* movement-record WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				172AA74C284CA3DF00B42DA4 /* Assets.xcassets */,
+			);
+			path = "movement-record WatchKit App";
+			sourceTree = "<group>";
+		};
+		172AA756284CA3DF00B42DA4 /* movement-record WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				172AA757284CA3DF00B42DA4 /* movement_recordApp.swift */,
+				172AA759284CA3DF00B42DA4 /* ContentView.swift */,
+				172AA75B284CA3DF00B42DA4 /* NotificationController.swift */,
+				172AA75D284CA3DF00B42DA4 /* NotificationView.swift */,
+				172AA75F284CA3DF00B42DA4 /* ComplicationController.swift */,
+				172AA761284CA3E100B42DA4 /* Assets.xcassets */,
+				172AA766284CA3E100B42DA4 /* Info.plist */,
+				172AA767284CA3E100B42DA4 /* PushNotificationPayload.apns */,
+				172AA763284CA3E100B42DA4 /* Preview Content */,
+			);
+			path = "movement-record WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		172AA763284CA3E100B42DA4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				172AA764284CA3E100B42DA4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		172AA76F284CA3E100B42DA4 /* movement-record WatchKit AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				172AA770284CA3E100B42DA4 /* movement_record_WatchKit_AppTests.swift */,
+			);
+			path = "movement-record WatchKit AppTests";
+			sourceTree = "<group>";
+		};
+		172AA779284CA3E100B42DA4 /* movement-record WatchKit AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				172AA77A284CA3E100B42DA4 /* movement_record_WatchKit_AppUITests.swift */,
+				172AA77C284CA3E100B42DA4 /* movement_record_WatchKit_AppUITestsLaunchTests.swift */,
+			);
+			path = "movement-record WatchKit AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		172AA722284CA3D700B42DA4 /* movement-record */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 172AA788284CA3E100B42DA4 /* Build configuration list for PBXNativeTarget "movement-record" */;
+			buildPhases = (
+				172AA71F284CA3D700B42DA4 /* Sources */,
+				172AA720284CA3D700B42DA4 /* Frameworks */,
+				172AA721284CA3D700B42DA4 /* Resources */,
+				172AA787284CA3E100B42DA4 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				172AA74A284CA3DD00B42DA4 /* PBXTargetDependency */,
+			);
+			name = "movement-record";
+			productName = "movement-record";
+			productReference = 172AA723284CA3D700B42DA4 /* movement-record.app */;
+			productType = "com.apple.product-type.application";
+		};
+		172AA732284CA3DD00B42DA4 /* movement-recordTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 172AA78B284CA3E100B42DA4 /* Build configuration list for PBXNativeTarget "movement-recordTests" */;
+			buildPhases = (
+				172AA72F284CA3DD00B42DA4 /* Sources */,
+				172AA730284CA3DD00B42DA4 /* Frameworks */,
+				172AA731284CA3DD00B42DA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				172AA735284CA3DD00B42DA4 /* PBXTargetDependency */,
+			);
+			name = "movement-recordTests";
+			productName = "movement-recordTests";
+			productReference = 172AA733284CA3DD00B42DA4 /* movement-recordTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		172AA73C284CA3DD00B42DA4 /* movement-recordUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 172AA78E284CA3E100B42DA4 /* Build configuration list for PBXNativeTarget "movement-recordUITests" */;
+			buildPhases = (
+				172AA739284CA3DD00B42DA4 /* Sources */,
+				172AA73A284CA3DD00B42DA4 /* Frameworks */,
+				172AA73B284CA3DD00B42DA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				172AA73F284CA3DD00B42DA4 /* PBXTargetDependency */,
+			);
+			name = "movement-recordUITests";
+			productName = "movement-recordUITests";
+			productReference = 172AA73D284CA3DD00B42DA4 /* movement-recordUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		172AA746284CA3DD00B42DA4 /* movement-record WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 172AA784284CA3E100B42DA4 /* Build configuration list for PBXNativeTarget "movement-record WatchKit App" */;
+			buildPhases = (
+				172AA745284CA3DD00B42DA4 /* Resources */,
+				172AA783284CA3E100B42DA4 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				172AA755284CA3DF00B42DA4 /* PBXTargetDependency */,
+			);
+			name = "movement-record WatchKit App";
+			productName = "movement-record WatchKit App";
+			productReference = 172AA747284CA3DD00B42DA4 /* movement-record WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		172AA751284CA3DF00B42DA4 /* movement-record WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 172AA780284CA3E100B42DA4 /* Build configuration list for PBXNativeTarget "movement-record WatchKit Extension" */;
+			buildPhases = (
+				172AA74E284CA3DF00B42DA4 /* Sources */,
+				172AA74F284CA3DF00B42DA4 /* Frameworks */,
+				172AA750284CA3DF00B42DA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "movement-record WatchKit Extension";
+			productName = "movement-record WatchKit Extension";
+			productReference = 172AA752284CA3DF00B42DA4 /* movement-record WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		172AA76B284CA3E100B42DA4 /* movement-record WatchKit AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 172AA791284CA3E100B42DA4 /* Build configuration list for PBXNativeTarget "movement-record WatchKit AppTests" */;
+			buildPhases = (
+				172AA768284CA3E100B42DA4 /* Sources */,
+				172AA769284CA3E100B42DA4 /* Frameworks */,
+				172AA76A284CA3E100B42DA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				172AA76E284CA3E100B42DA4 /* PBXTargetDependency */,
+			);
+			name = "movement-record WatchKit AppTests";
+			productName = "movement-record WatchKit AppTests";
+			productReference = 172AA76C284CA3E100B42DA4 /* movement-record WatchKit AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		172AA775284CA3E100B42DA4 /* movement-record WatchKit AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 172AA794284CA3E100B42DA4 /* Build configuration list for PBXNativeTarget "movement-record WatchKit AppUITests" */;
+			buildPhases = (
+				172AA772284CA3E100B42DA4 /* Sources */,
+				172AA773284CA3E100B42DA4 /* Frameworks */,
+				172AA774284CA3E100B42DA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				172AA778284CA3E100B42DA4 /* PBXTargetDependency */,
+			);
+			name = "movement-record WatchKit AppUITests";
+			productName = "movement-record WatchKit AppUITests";
+			productReference = 172AA776284CA3E100B42DA4 /* movement-record WatchKit AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		172AA71B284CA3D600B42DA4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					172AA722284CA3D700B42DA4 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					172AA732284CA3DD00B42DA4 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 172AA722284CA3D700B42DA4;
+					};
+					172AA73C284CA3DD00B42DA4 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 172AA722284CA3D700B42DA4;
+					};
+					172AA746284CA3DD00B42DA4 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					172AA751284CA3DF00B42DA4 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					172AA76B284CA3E100B42DA4 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 172AA751284CA3DF00B42DA4;
+					};
+					172AA775284CA3E100B42DA4 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 172AA746284CA3DD00B42DA4;
+					};
+				};
+			};
+			buildConfigurationList = 172AA71E284CA3D600B42DA4 /* Build configuration list for PBXProject "movement-record" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 172AA71A284CA3D600B42DA4;
+			productRefGroup = 172AA724284CA3D700B42DA4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				172AA722284CA3D700B42DA4 /* movement-record */,
+				172AA732284CA3DD00B42DA4 /* movement-recordTests */,
+				172AA73C284CA3DD00B42DA4 /* movement-recordUITests */,
+				172AA746284CA3DD00B42DA4 /* movement-record WatchKit App */,
+				172AA751284CA3DF00B42DA4 /* movement-record WatchKit Extension */,
+				172AA76B284CA3E100B42DA4 /* movement-record WatchKit AppTests */,
+				172AA775284CA3E100B42DA4 /* movement-record WatchKit AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		172AA721284CA3D700B42DA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				172AA72E284CA3DD00B42DA4 /* Preview Assets.xcassets in Resources */,
+				172AA72B284CA3DD00B42DA4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		172AA731284CA3DD00B42DA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		172AA73B284CA3DD00B42DA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		172AA745284CA3DD00B42DA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				172AA74D284CA3DF00B42DA4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		172AA750284CA3DF00B42DA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				172AA765284CA3E100B42DA4 /* Preview Assets.xcassets in Resources */,
+				172AA762284CA3E100B42DA4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		172AA76A284CA3E100B42DA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		172AA774284CA3E100B42DA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		172AA71F284CA3D700B42DA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				172AA729284CA3D700B42DA4 /* ContentView.swift in Sources */,
+				172AA727284CA3D700B42DA4 /* movement_recordApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		172AA72F284CA3DD00B42DA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				172AA738284CA3DD00B42DA4 /* movement_recordTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		172AA739284CA3DD00B42DA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				172AA744284CA3DD00B42DA4 /* movement_recordUITestsLaunchTests.swift in Sources */,
+				172AA742284CA3DD00B42DA4 /* movement_recordUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		172AA74E284CA3DF00B42DA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				172AA75C284CA3DF00B42DA4 /* NotificationController.swift in Sources */,
+				172AA75A284CA3DF00B42DA4 /* ContentView.swift in Sources */,
+				172AA760284CA3DF00B42DA4 /* ComplicationController.swift in Sources */,
+				172AA758284CA3DF00B42DA4 /* movement_recordApp.swift in Sources */,
+				172AA75E284CA3DF00B42DA4 /* NotificationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		172AA768284CA3E100B42DA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				172AA771284CA3E100B42DA4 /* movement_record_WatchKit_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		172AA772284CA3E100B42DA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				172AA77B284CA3E100B42DA4 /* movement_record_WatchKit_AppUITests.swift in Sources */,
+				172AA77D284CA3E100B42DA4 /* movement_record_WatchKit_AppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		172AA735284CA3DD00B42DA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 172AA722284CA3D700B42DA4 /* movement-record */;
+			targetProxy = 172AA734284CA3DD00B42DA4 /* PBXContainerItemProxy */;
+		};
+		172AA73F284CA3DD00B42DA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 172AA722284CA3D700B42DA4 /* movement-record */;
+			targetProxy = 172AA73E284CA3DD00B42DA4 /* PBXContainerItemProxy */;
+		};
+		172AA74A284CA3DD00B42DA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 172AA746284CA3DD00B42DA4 /* movement-record WatchKit App */;
+			targetProxy = 172AA749284CA3DD00B42DA4 /* PBXContainerItemProxy */;
+		};
+		172AA755284CA3DF00B42DA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 172AA751284CA3DF00B42DA4 /* movement-record WatchKit Extension */;
+			targetProxy = 172AA754284CA3DF00B42DA4 /* PBXContainerItemProxy */;
+		};
+		172AA76E284CA3E100B42DA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 172AA751284CA3DF00B42DA4 /* movement-record WatchKit Extension */;
+			targetProxy = 172AA76D284CA3E100B42DA4 /* PBXContainerItemProxy */;
+		};
+		172AA778284CA3E100B42DA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 172AA746284CA3DD00B42DA4 /* movement-record WatchKit App */;
+			targetProxy = 172AA777284CA3E100B42DA4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		172AA77E284CA3E100B42DA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		172AA77F284CA3E100B42DA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		172AA781284CA3E100B42DA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"movement-record WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = PPLG2268AY;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "movement-record WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "movement-record WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.nsym.movement-record.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Debug;
+		};
+		172AA782284CA3E100B42DA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"movement-record WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = PPLG2268AY;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "movement-record WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "movement-record WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.nsym.movement-record.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Release;
+		};
+		172AA785284CA3E100B42DA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PPLG2268AY;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = movement_record_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "movement-record WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "dev.nsym.movement-record";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.nsym.movement-record.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Debug;
+		};
+		172AA786284CA3E100B42DA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PPLG2268AY;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = movement_record_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "movement-record WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "dev.nsym.movement-record";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.nsym.movement-record.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Release;
+		};
+		172AA789284CA3E100B42DA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"movement-record/Preview Content\"";
+				DEVELOPMENT_TEAM = PPLG2268AY;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.nsym.movement-record";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		172AA78A284CA3E100B42DA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"movement-record/Preview Content\"";
+				DEVELOPMENT_TEAM = PPLG2268AY;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.nsym.movement-record";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		172AA78C284CA3E100B42DA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PPLG2268AY;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.nsym.movement-recordTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/movement-record.app/movement-record";
+			};
+			name = Debug;
+		};
+		172AA78D284CA3E100B42DA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PPLG2268AY;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.nsym.movement-recordTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/movement-record.app/movement-record";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		172AA78F284CA3E100B42DA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PPLG2268AY;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.nsym.movement-recordUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "movement-record";
+			};
+			name = Debug;
+		};
+		172AA790284CA3E100B42DA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PPLG2268AY;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.nsym.movement-recordUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "movement-record";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		172AA792284CA3E100B42DA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PPLG2268AY;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.nsym.movement-record-WatchKit-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/movement-record WatchKit Extension.appex/movement-record WatchKit Extension";
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Debug;
+		};
+		172AA793284CA3E100B42DA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PPLG2268AY;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.nsym.movement-record-WatchKit-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/movement-record WatchKit Extension.appex/movement-record WatchKit Extension";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Release;
+		};
+		172AA795284CA3E100B42DA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PPLG2268AY;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.nsym.movement-record-WatchKit-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "movement-record WatchKit App";
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Debug;
+		};
+		172AA796284CA3E100B42DA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PPLG2268AY;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.nsym.movement-record-WatchKit-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "movement-record WatchKit App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.3;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		172AA71E284CA3D600B42DA4 /* Build configuration list for PBXProject "movement-record" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				172AA77E284CA3E100B42DA4 /* Debug */,
+				172AA77F284CA3E100B42DA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		172AA780284CA3E100B42DA4 /* Build configuration list for PBXNativeTarget "movement-record WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				172AA781284CA3E100B42DA4 /* Debug */,
+				172AA782284CA3E100B42DA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		172AA784284CA3E100B42DA4 /* Build configuration list for PBXNativeTarget "movement-record WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				172AA785284CA3E100B42DA4 /* Debug */,
+				172AA786284CA3E100B42DA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		172AA788284CA3E100B42DA4 /* Build configuration list for PBXNativeTarget "movement-record" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				172AA789284CA3E100B42DA4 /* Debug */,
+				172AA78A284CA3E100B42DA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		172AA78B284CA3E100B42DA4 /* Build configuration list for PBXNativeTarget "movement-recordTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				172AA78C284CA3E100B42DA4 /* Debug */,
+				172AA78D284CA3E100B42DA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		172AA78E284CA3E100B42DA4 /* Build configuration list for PBXNativeTarget "movement-recordUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				172AA78F284CA3E100B42DA4 /* Debug */,
+				172AA790284CA3E100B42DA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		172AA791284CA3E100B42DA4 /* Build configuration list for PBXNativeTarget "movement-record WatchKit AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				172AA792284CA3E100B42DA4 /* Debug */,
+				172AA793284CA3E100B42DA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		172AA794284CA3E100B42DA4 /* Build configuration list for PBXNativeTarget "movement-record WatchKit AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				172AA795284CA3E100B42DA4 /* Debug */,
+				172AA796284CA3E100B42DA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 172AA71B284CA3D600B42DA4 /* Project object */;
+}
