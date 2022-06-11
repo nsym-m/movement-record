@@ -142,6 +142,8 @@
 		172AA7AB284CFFFD00B42DA4 /* WorkoutViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutViewModel.swift; sourceTree = "<group>"; };
 		172AA7AD284D041700B42DA4 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		172AA7B2284D237B00B42DA4 /* WorkoutModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutModel.swift; sourceTree = "<group>"; };
+		17CFBC3328548B6B00599FE7 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS8.5.sdk/System/Library/Frameworks/HealthKit.framework; sourceTree = DEVELOPER_DIR; };
+		17CFBC3528548BBB00599FE7 /* movement-record WatchKit ExtensionDebug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "movement-record WatchKit ExtensionDebug.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -202,6 +204,7 @@
 				172AA76F284CA3E100B42DA4 /* movement-record WatchKit AppTests */,
 				172AA779284CA3E100B42DA4 /* movement-record WatchKit AppUITests */,
 				172AA724284CA3D700B42DA4 /* Products */,
+				17CFBC3228548B6B00599FE7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -266,6 +269,7 @@
 		172AA756284CA3DF00B42DA4 /* movement-record WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
+				17CFBC3528548BBB00599FE7 /* movement-record WatchKit ExtensionDebug.entitlements */,
 				172AA7B1284D141800B42DA4 /* Models */,
 				172AA798284CBE6300B42DA4 /* Views */,
 				172AA757284CA3DF00B42DA4 /* movement_recordApp.swift */,
@@ -357,6 +361,14 @@
 				172AA7B2284D237B00B42DA4 /* WorkoutModel.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		17CFBC3228548B6B00599FE7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				17CFBC3328548B6B00599FE7 /* HealthKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -819,6 +831,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_ENTITLEMENTS = "movement-record WatchKit Extension/movement-record WatchKit ExtensionDebug.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"movement-record WatchKit Extension/Preview Content\"";
