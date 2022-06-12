@@ -9,6 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
+        // TODO: Twitter連携機能
         Text("Hello, world!")
             .font(.title)
             .foregroundColor(Color.red)

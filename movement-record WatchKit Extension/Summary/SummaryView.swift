@@ -24,6 +24,7 @@ struct SummaryView: View {
         } else {
             ScrollView {
                 VStack(alignment: .leading) {
+                    // TODO: 歩数表示、腕立て伏せ版Summary作成
                     SummaryMetricView(title: "Total Time",
                                       value: durationFormatter.string(from: workout.workout?.duration ?? 0.0) ?? "")
                         .foregroundStyle(.yellow)
@@ -34,6 +35,7 @@ struct SummaryView: View {
                                                                 usage: .road,
                                                                 numberFormatStyle: .number.precision(.fractionLength(2)))))
                         .foregroundStyle(.green)
+                    // TODO: Twitter投稿
                     Button("Done") {
                         dismiss()
                     }

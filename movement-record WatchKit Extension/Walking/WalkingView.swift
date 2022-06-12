@@ -19,7 +19,7 @@ struct WalkingView: View {
                     .foregroundStyle(.yellow)
                 // 移動距離
                 Text(Measurement(value: workout.distance, unit: UnitLength.meters).formatted(.measurement(width: .abbreviated, usage: .road)))
-                // 歩数表示にする
+                // TODO: 歩数表示にする
                 Text(Measurement(value: workout.distance, unit: UnitLength.meters).formatted(.measurement(width: .abbreviated, usage: .road)))
             }
             .font(.system(.title, design: .rounded).monospacedDigit().lowercaseSmallCaps())

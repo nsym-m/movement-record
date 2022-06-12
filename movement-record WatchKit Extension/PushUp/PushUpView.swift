@@ -9,6 +9,7 @@ import SwiftUI
 
 struct PushUpView: View {
     var body: some View {
+        // TODO: 腕立て伏せ計測画面にする
         Text("Let's PushUp!!")
     }
 }
