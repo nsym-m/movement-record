@@ -40,6 +40,7 @@
 		17CFBC412855BA0000599FE7 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17CFBC402855BA0000599FE7 /* HealthKit.framework */; };
 		17CFBC422855BA1D00599FE7 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17CFBC3328548B6B00599FE7 /* HealthKit.framework */; };
 		17CFBC452855C70F00599FE7 /* ElapsedTimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17CFBC442855C70F00599FE7 /* ElapsedTimeView.swift */; };
+		17CFBC482856379700599FE7 /* SummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17CFBC472856379700599FE7 /* SummaryView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -156,6 +157,7 @@
 		17CFBC3F2855BA0000599FE7 /* movement-recordDebug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "movement-recordDebug.entitlements"; sourceTree = "<group>"; };
 		17CFBC402855BA0000599FE7 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/HealthKit.framework; sourceTree = DEVELOPER_DIR; };
 		17CFBC442855C70F00599FE7 /* ElapsedTimeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElapsedTimeView.swift; sourceTree = "<group>"; };
+		17CFBC472856379700599FE7 /* SummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -328,6 +330,7 @@
 		172AA798284CBE6300B42DA4 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				17CFBC462856377F00599FE7 /* Summary */,
 				17CFBC432855C6DD00599FE7 /* ElapsedTime */,
 				17CFBC382854CFE900599FE7 /* Control */,
 				172AA7A8284CFBB300B42DA4 /* Workout */,
@@ -405,6 +408,14 @@
 				17CFBC442855C70F00599FE7 /* ElapsedTimeView.swift */,
 			);
 			path = ElapsedTime;
+			sourceTree = "<group>";
+		};
+		17CFBC462856377F00599FE7 /* Summary */ = {
+			isa = PBXGroup;
+			children = (
+				17CFBC472856379700599FE7 /* SummaryView.swift */,
+			);
+			path = Summary;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -695,6 +706,7 @@
 				17CFBC452855C70F00599FE7 /* ElapsedTimeView.swift in Sources */,
 				172AA760284CA3DF00B42DA4 /* ComplicationController.swift in Sources */,
 				17CFBC3C2854D31B00599FE7 /* PushUpView.swift in Sources */,
+				17CFBC482856379700599FE7 /* SummaryView.swift in Sources */,
 				172AA758284CA3DF00B42DA4 /* movement_recordApp.swift in Sources */,
 				172AA7A6284CC03F00B42DA4 /* HomeView.swift in Sources */,
 				17CFBC3E2854D32B00599FE7 /* WalkingView.swift in Sources */,

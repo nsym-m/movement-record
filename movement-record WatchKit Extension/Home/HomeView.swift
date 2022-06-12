@@ -33,6 +33,9 @@ struct HomeView: View {
                 }
             }
         }
+        .sheet(isPresented: $workout.showingSummaryView) {
+            SummaryView()
+        }
     }
 }
 

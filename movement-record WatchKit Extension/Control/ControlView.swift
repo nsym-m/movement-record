@@ -33,8 +33,8 @@ struct ControlView: View {
                     Alert(
                         title: Text("このワークアウトを終了します。よろしいですか？"),
                         primaryButton: .destructive(Text("終了"), action: {
-                            workout.endWorkout()
                             workout.toggleToFirstView(workingType: workoutActivityType)
+                            workout.endWorkout()
                         }),
                         secondaryButton: .default(Text("キャンセル"))
                     )
