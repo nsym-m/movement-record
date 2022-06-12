@@ -6,21 +6,39 @@
 //
 
 import SwiftUI
+import HealthKit
 
 struct ControlView: View {
     @EnvironmentObject var workout: WorkoutModel
+    @State private var showAlert = false
+    
+    private var workoutActivityType: HKWorkoutActivityType
+    
+    init(workoutActivityType: HKWorkoutActivityType) {
+        self.workoutActivityType = workoutActivityType
+    }
 
     var body: some View {
         HStack {
             VStack {
                 Button {
-                    workout.endWorkout()
+                    showAlert.toggle()
                 } label: {
                     Image(systemName: "xmark")
                 }
                 .tint(.red)
                 .font(.title2)
                 Text("End")
+                .alert(isPresented: $showAlert) {
+                    Alert(
+                        title: Text("このワークアウトを終了します。よろしいですか？"),
+                        primaryButton: .destructive(Text("終了"), action: {
+                            workout.endWorkout()
+                            workout.toggleToFirstView(workingType: workoutActivityType)
+                        }),
+                        secondaryButton: .default(Text("キャンセル"))
+                    )
+                }
             }
             VStack {
                 Button {
@@ -38,6 +56,6 @@ struct ControlView: View {
 
 struct ControlView_Previews: PreviewProvider {
     static var previews: some View {
-        ControlView()
+        ControlView(workoutActivityType: .walking)
     }
 }

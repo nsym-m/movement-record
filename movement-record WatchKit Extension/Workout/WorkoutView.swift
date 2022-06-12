@@ -13,8 +13,9 @@ struct WorkoutView: View {
     @EnvironmentObject var workout: WorkoutModel
     @Environment(\.isLuminanceReduced) var isLuminanceReduced
     @State private var selection: Tab = .metrics
-    @State private var workoutActivityType: HKWorkoutActivityType
-    
+
+    private var workoutActivityType: HKWorkoutActivityType
+
     init(workoutActivityType: HKWorkoutActivityType) {
         self.workoutActivityType = workoutActivityType
     }
@@ -25,7 +26,7 @@ struct WorkoutView: View {
 
     var body: some View {
         TabView(selection: $selection) {
-            ControlView().tag(Tab.controls)
+            ControlView(workoutActivityType: workoutActivityType).tag(Tab.controls)
             workoutActivityType.workView.tag(Tab.metrics)
             NowPlayingView().tag(Tab.nowPlaying)
         }

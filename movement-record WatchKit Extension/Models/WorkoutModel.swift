@@ -29,7 +29,21 @@ class WorkoutModel: NSObject, ObservableObject {
     let healthStore = HKHealthStore()
     var session: HKWorkoutSession?
     var builder: HKLiveWorkoutBuilder?
-    
+
+    @Published var toFirstViewWalking: Bool = false
+    @Published var toFirstViewPushUp: Bool = false
+
+    func toggleToFirstView(workingType: HKWorkoutActivityType) {
+        switch workingType {
+        case .functionalStrengthTraining:
+            toFirstViewPushUp.toggle()
+        case .walking:
+            toFirstViewWalking.toggle()
+        default:
+            return
+        }
+    }
+
     var workoutTypes: [HKWorkoutActivityType] = [.functionalStrengthTraining, .walking]
 
     // Start the workout.
