@@ -37,6 +37,8 @@
 		17CFBC3A2854D00900599FE7 /* ControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17CFBC392854D00900599FE7 /* ControlView.swift */; };
 		17CFBC3C2854D31B00599FE7 /* PushUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17CFBC3B2854D31B00599FE7 /* PushUpView.swift */; };
 		17CFBC3E2854D32B00599FE7 /* WalkingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17CFBC3D2854D32B00599FE7 /* WalkingView.swift */; };
+		17CFBC412855BA0000599FE7 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17CFBC402855BA0000599FE7 /* HealthKit.framework */; };
+		17CFBC422855BA1D00599FE7 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17CFBC3328548B6B00599FE7 /* HealthKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -150,6 +152,8 @@
 		17CFBC392854D00900599FE7 /* ControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlView.swift; sourceTree = "<group>"; };
 		17CFBC3B2854D31B00599FE7 /* PushUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushUpView.swift; sourceTree = "<group>"; };
 		17CFBC3D2854D32B00599FE7 /* WalkingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkingView.swift; sourceTree = "<group>"; };
+		17CFBC3F2855BA0000599FE7 /* movement-recordDebug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "movement-recordDebug.entitlements"; sourceTree = "<group>"; };
+		17CFBC402855BA0000599FE7 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/HealthKit.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,6 +161,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17CFBC412855BA0000599FE7 /* HealthKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -178,6 +183,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17CFBC422855BA1D00599FE7 /* HealthKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -231,6 +237,7 @@
 		172AA725284CA3D700B42DA4 /* movement-record */ = {
 			isa = PBXGroup;
 			children = (
+				17CFBC3F2855BA0000599FE7 /* movement-recordDebug.entitlements */,
 				172AA726284CA3D700B42DA4 /* movement_recordApp.swift */,
 				172AA728284CA3D700B42DA4 /* ContentView.swift */,
 				172AA72A284CA3DD00B42DA4 /* Assets.xcassets */,
@@ -375,6 +382,7 @@
 		17CFBC3228548B6B00599FE7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				17CFBC402855BA0000599FE7 /* HealthKit.framework */,
 				17CFBC3328548B6B00599FE7 /* HealthKit.framework */,
 			);
 			name = Frameworks;
@@ -971,6 +979,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "movement-record/movement-recordDebug.entitlements";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"movement-record/Preview Content\"";
