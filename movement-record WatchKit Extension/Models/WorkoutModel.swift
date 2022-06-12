@@ -1,5 +1,5 @@
 //
-//  WorkoutModel.swift
+//  Workout.swift
 //  movement-record WatchKit Extension
 //
 //  Created by 西山幹也 on 2022/06/06.
@@ -7,8 +7,10 @@
 
 import Foundation
 import HealthKit
+import SwiftUI
 
 class WorkoutModel: NSObject, ObservableObject {
+    
     var selectedWorkout: HKWorkoutActivityType? {
         didSet {
             guard let selectedWorkout = selectedWorkout else { return }
@@ -27,6 +29,8 @@ class WorkoutModel: NSObject, ObservableObject {
     let healthStore = HKHealthStore()
     var session: HKWorkoutSession?
     var builder: HKLiveWorkoutBuilder?
+    
+    var workoutTypes: [HKWorkoutActivityType] = [.functionalStrengthTraining, .walking]
 
     // Start the workout.
     func startWorkout(workoutType: HKWorkoutActivityType) {
@@ -40,6 +44,7 @@ class WorkoutModel: NSObject, ObservableObject {
             builder = session?.associatedWorkoutBuilder()
         } catch {
             // Handle any exceptions.
+            print("faild start session")
             return
         }
 
@@ -68,16 +73,15 @@ class WorkoutModel: NSObject, ObservableObject {
 
         // The quantity types to read from the health store.
         let typesToRead: Set = [
-            HKQuantityType.quantityType(forIdentifier: .heartRate)!,
-            HKQuantityType.quantityType(forIdentifier: .activeEnergyBurned)!,
-            HKQuantityType.quantityType(forIdentifier: .distanceWalkingRunning)!,
-            HKQuantityType.quantityType(forIdentifier: .distanceCycling)!,
-            HKObjectType.activitySummaryType()
+            HKQuantityType.quantityType(forIdentifier: .stepCount)!,
+            HKQuantityType.quantityType(forIdentifier: .distanceWalkingRunning)!
         ]
 
         // Request authorization for those quantity types.
         healthStore.requestAuthorization(toShare: typesToShare, read: typesToRead) { (success, error) in
-            // Handle error.
+            if (!success) {
+                print("error healthStore requestAuthorization: " + error.debugDescription)
+            }
         }
     }
 
@@ -188,6 +192,47 @@ extension WorkoutModel: HKLiveWorkoutBuilderDelegate {
 
             // Update the published values.
             updateForStatistics(statistics)
+        }
+    }
+}
+
+extension HKWorkoutActivityType: Identifiable {
+    public var id: UInt {
+        rawValue
+    }
+
+    var name: String {
+        switch self {
+        case .functionalStrengthTraining:
+            return "筋トレ"
+        case .walking:
+            return "散歩"
+        default:
+            return ""
+        }
+    }
+    
+    @ViewBuilder
+    var menuView: some View {
+        switch self {
+        case .functionalStrengthTraining:
+            PushUpMenuView()
+        case .walking:
+            WalkingMenuView()
+        default:
+            HomeView()
+        }
+    }
+    
+    @ViewBuilder
+    var workView: some View {
+        switch self {
+        case .functionalStrengthTraining:
+            PushUpView()
+        case .walking:
+            WalkingView()
+        default:
+            HomeView()
         }
     }
 }

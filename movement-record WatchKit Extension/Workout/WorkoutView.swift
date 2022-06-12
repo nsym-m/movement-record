@@ -7,11 +7,17 @@
 
 import SwiftUI
 import WatchKit
+import HealthKit
 
 struct WorkoutView: View {
-    @EnvironmentObject var workoutModel: WorkoutModel
+    @EnvironmentObject var workout: WorkoutModel
     @Environment(\.isLuminanceReduced) var isLuminanceReduced
     @State private var selection: Tab = .metrics
+    @State private var workoutActivityType: HKWorkoutActivityType
+    
+    init(workoutActivityType: HKWorkoutActivityType) {
+        self.workoutActivityType = workoutActivityType
+    }
 
     enum Tab {
         case controls, metrics, nowPlaying
@@ -19,15 +25,12 @@ struct WorkoutView: View {
 
     var body: some View {
         TabView(selection: $selection) {
-            PushUpView().tag(Tab.controls)
-            WalkingView().tag(Tab.metrics)
+            ControlView().tag(Tab.controls)
+            workoutActivityType.workView.tag(Tab.metrics)
             NowPlayingView().tag(Tab.nowPlaying)
         }
-        .navigationTitle(workoutModel.selectedWorkout?.name ?? "")
+        .navigationTitle(workout.selectedWorkout?.name ?? "")
         .navigationBarHidden(selection == .nowPlaying)
-        .onChange(of: workoutModel.running) { _ in
-            displayMetricsView()
-        }
         .tabViewStyle(PageTabViewStyle(indexDisplayMode: isLuminanceReduced ? .never : .automatic))
         .onChange(of: isLuminanceReduced) { _ in
             displayMetricsView()
@@ -39,10 +42,12 @@ struct WorkoutView: View {
             selection = .metrics
         }
     }
+    
+    
 }
 
 struct WorkoutView_Previews: PreviewProvider {
     static var previews: some View {
-        WorkoutView()
+        WorkoutView(workoutActivityType: .functionalStrengthTraining)
     }
 }

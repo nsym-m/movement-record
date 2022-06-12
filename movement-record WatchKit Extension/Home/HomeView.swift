@@ -9,20 +9,18 @@ import SwiftUI
 import HealthKit
 
 struct HomeView: View {
-    @EnvironmentObject var workoutModel: WorkoutModel
-    var workoutTypes: [HKWorkoutActivityType] = [.functionalStrengthTraining, .walking]
+    @EnvironmentObject var workout: WorkoutModel
     
     var body: some View {
         NavigationView {
             VStack {
-                List(workoutTypes) { workoutType in
-                    NavigationLink(workoutType.name, destination: WorkoutView(),
-                                   tag: workoutType, selection: $workoutModel.selectedWorkout)
+                List(workout.workoutTypes) { workoutType in
+                    NavigationLink(workoutType.name, destination: workoutType.menuView)
                         .padding(EdgeInsets(top: 15, leading: 5, bottom: 15, trailing: 5))
                 }
                 .navigationBarTitle("Workouts")
                 .onAppear {
-                    workoutModel.requestAuthorization()
+                    workout.requestAuthorization()
                 }
             }
         }
@@ -32,22 +30,5 @@ struct HomeView: View {
 struct HomeView_Previews: PreviewProvider {
     static var previews: some View {
         HomeView()
-    }
-}
-
-extension HKWorkoutActivityType: Identifiable {
-    public var id: UInt {
-        rawValue
-    }
-
-    var name: String {
-        switch self {
-        case .functionalStrengthTraining:
-            return "筋トレ"
-        case .walking:
-            return "散歩"
-        default:
-            return ""
-        }
     }
 }

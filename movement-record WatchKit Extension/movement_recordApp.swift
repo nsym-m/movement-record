@@ -9,14 +9,14 @@ import SwiftUI
 
 @main
 struct movement_recordApp: App {
-    @StateObject private var workoutModel = WorkoutModel()
+    @StateObject private var workout = WorkoutModel()
     
     @SceneBuilder var body: some Scene {
         WindowGroup {
             NavigationView {
                 HomeView()
             }
-            .environmentObject(workoutModel)
+            .environmentObject(workout)
         }
 
         WKNotificationScene(controller: NotificationController.self, category: "myCategory")
