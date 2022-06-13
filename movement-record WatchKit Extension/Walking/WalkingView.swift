@@ -7,9 +7,14 @@
 
 import SwiftUI
 import HealthKit
+import Foundation
 
 struct WalkingView: View {
     @EnvironmentObject var workout: WorkoutModel
+    let nformat = NumberFormatter()
+    nformat.numberStyle = .spellOut
+    nformat.locale = Locale(identifier: "ja_JP")
+    print(nf.string(from: 123)!)
 
     var body: some View {
         TimelineView(MetricsTimelineSchedule(from: workout.builder?.startDate ?? Date())) { context in
@@ -20,7 +25,9 @@ struct WalkingView: View {
                 // 移動距離
                 Text(Measurement(value: workout.distance, unit: UnitLength.meters).formatted(.measurement(width: .abbreviated, usage: .road)))
                 // TODO: 歩数表示にする
-                Text(Measurement(value: workout.distance, unit: UnitLength.meters).formatted(.measurement(width: .abbreviated, usage: .road)))
+                Text(localizedString(from: workout.stepCount,number: NumberFormatter.Style.decimal)
+//                    Measurement(value: , unit: UnitLength.steps).formatted(.measurement(width: .abbreviated, usage: .road))
+                )
             }
             .font(.system(.title, design: .rounded).monospacedDigit().lowercaseSmallCaps())
             .frame(maxWidth: .infinity, alignment: .leading)
