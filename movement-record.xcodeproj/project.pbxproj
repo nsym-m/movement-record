@@ -288,10 +288,10 @@
 		172AA756284CA3DF00B42DA4 /* movement-record WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
+				1736BC182857B57100D65CE8 /* Views */,
 				1736BC122857AA1000D65CE8 /* Utilities */,
 				17CFBC3528548BBB00599FE7 /* movement-record WatchKit ExtensionDebug.entitlements */,
 				172AA7B1284D141800B42DA4 /* Models */,
-				172AA798284CBE6300B42DA4 /* Views */,
 				172AA757284CA3DF00B42DA4 /* movement_recordApp.swift */,
 				172AA759284CA3DF00B42DA4 /* ContentView.swift */,
 				172AA75B284CA3DF00B42DA4 /* NotificationController.swift */,
@@ -328,20 +328,6 @@
 				172AA77C284CA3E100B42DA4 /* movement_record_WatchKit_AppUITestsLaunchTests.swift */,
 			);
 			path = "movement-record WatchKit AppUITests";
-			sourceTree = "<group>";
-		};
-		172AA798284CBE6300B42DA4 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				17CFBC462856377F00599FE7 /* Summary */,
-				17CFBC432855C6DD00599FE7 /* ElapsedTime */,
-				17CFBC382854CFE900599FE7 /* Control */,
-				172AA7A8284CFBB300B42DA4 /* Workout */,
-				172AA7A0284CBFF600B42DA4 /* Home */,
-				172AA79F284CBFEB00B42DA4 /* PushUp */,
-				172AA79D284CBFA700B42DA4 /* Walking */,
-			);
-			name = Views;
 			sourceTree = "<group>";
 		};
 		172AA79D284CBFA700B42DA4 /* Walking */ = {
@@ -402,6 +388,20 @@
 				1736BC162857AAC800D65CE8 /* HKWorkoutActivityType+.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		1736BC182857B57100D65CE8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				17CFBC462856377F00599FE7 /* Summary */,
+				17CFBC432855C6DD00599FE7 /* ElapsedTime */,
+				17CFBC382854CFE900599FE7 /* Control */,
+				172AA7A8284CFBB300B42DA4 /* Workout */,
+				172AA7A0284CBFF600B42DA4 /* Home */,
+				172AA79F284CBFEB00B42DA4 /* PushUp */,
+				172AA79D284CBFA700B42DA4 /* Walking */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		17CFBC3228548B6B00599FE7 /* Frameworks */ = {
