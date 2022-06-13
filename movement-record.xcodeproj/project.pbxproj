@@ -34,6 +34,7 @@
 		172AA7AC284CFFFD00B42DA4 /* WorkoutViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172AA7AB284CFFFD00B42DA4 /* WorkoutViewModel.swift */; };
 		172AA7AE284D041700B42DA4 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172AA7AD284D041700B42DA4 /* HomeViewModel.swift */; };
 		172AA7B3284D237B00B42DA4 /* WorkoutModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172AA7B2284D237B00B42DA4 /* WorkoutModel.swift */; };
+		1736BC172857AAC800D65CE8 /* HKWorkoutActivityType+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1736BC162857AAC800D65CE8 /* HKWorkoutActivityType+.swift */; };
 		17CFBC3A2854D00900599FE7 /* ControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17CFBC392854D00900599FE7 /* ControlView.swift */; };
 		17CFBC3C2854D31B00599FE7 /* PushUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17CFBC3B2854D31B00599FE7 /* PushUpView.swift */; };
 		17CFBC3E2854D32B00599FE7 /* WalkingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17CFBC3D2854D32B00599FE7 /* WalkingView.swift */; };
@@ -149,6 +150,7 @@
 		172AA7AB284CFFFD00B42DA4 /* WorkoutViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutViewModel.swift; sourceTree = "<group>"; };
 		172AA7AD284D041700B42DA4 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		172AA7B2284D237B00B42DA4 /* WorkoutModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutModel.swift; sourceTree = "<group>"; };
+		1736BC162857AAC800D65CE8 /* HKWorkoutActivityType+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HKWorkoutActivityType+.swift"; sourceTree = "<group>"; };
 		17CFBC3328548B6B00599FE7 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS8.5.sdk/System/Library/Frameworks/HealthKit.framework; sourceTree = DEVELOPER_DIR; };
 		17CFBC3528548BBB00599FE7 /* movement-record WatchKit ExtensionDebug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "movement-record WatchKit ExtensionDebug.entitlements"; sourceTree = "<group>"; };
 		17CFBC392854D00900599FE7 /* ControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlView.swift; sourceTree = "<group>"; };
@@ -286,6 +288,7 @@
 		172AA756284CA3DF00B42DA4 /* movement-record WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
+				1736BC122857AA1000D65CE8 /* Utilities */,
 				17CFBC3528548BBB00599FE7 /* movement-record WatchKit ExtensionDebug.entitlements */,
 				172AA7B1284D141800B42DA4 /* Models */,
 				172AA798284CBE6300B42DA4 /* Views */,
@@ -383,6 +386,22 @@
 				172AA7B2284D237B00B42DA4 /* WorkoutModel.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		1736BC122857AA1000D65CE8 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				1736BC132857AA3500D65CE8 /* Extensions */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		1736BC132857AA3500D65CE8 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1736BC162857AAC800D65CE8 /* HKWorkoutActivityType+.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		17CFBC3228548B6B00599FE7 /* Frameworks */ = {
@@ -700,6 +719,7 @@
 				172AA7AE284D041700B42DA4 /* HomeViewModel.swift in Sources */,
 				17CFBC3A2854D00900599FE7 /* ControlView.swift in Sources */,
 				172AA7AA284CFBCB00B42DA4 /* WorkoutView.swift in Sources */,
+				1736BC172857AAC800D65CE8 /* HKWorkoutActivityType+.swift in Sources */,
 				172AA75C284CA3DF00B42DA4 /* NotificationController.swift in Sources */,
 				172AA75A284CA3DF00B42DA4 /* ContentView.swift in Sources */,
 				172AA7AC284CFFFD00B42DA4 /* WorkoutViewModel.swift in Sources */,
