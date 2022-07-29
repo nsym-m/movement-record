@@ -9,7 +9,6 @@ import SwiftUI
 
 struct ElapsedTimeView: View {
     var elapsedTime: TimeInterval = 0
-    var showSubseconds: Bool = false
     @State private var timeFormatter = ElapsedTimeFormatter()
 
     var body: some View {

@@ -11,16 +11,12 @@ import Foundation
 
 struct WalkingView: View {
     @EnvironmentObject var workout: WorkoutModel
-    let nformat = NumberFormatter()
-    nformat.numberStyle = .spellOut
-    nformat.locale = Locale(identifier: "ja_JP")
-    print(nf.string(from: 123)!)
 
     var body: some View {
         TimelineView(MetricsTimelineSchedule(from: workout.builder?.startDate ?? Date())) { context in
             VStack(alignment: .leading) {
                 // 時間経過表示
-                ElapsedTimeView(elapsedTime: workout.builder?.elapsedTime ?? 0, showSubseconds: context.cadence == .live)
+                ElapsedTimeView(elapsedTime: workout.builder?.elapsedTime ?? 0)
                     .foregroundStyle(.yellow)
                 // 移動距離
                 Text(Measurement(value: workout.distance, unit: UnitLength.meters).formatted(.measurement(width: .abbreviated, usage: .road)))
