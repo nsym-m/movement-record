@@ -20,9 +20,9 @@ struct WalkingView: View {
                     .foregroundStyle(.yellow)
                 // 移動距離
                 Text(Measurement(value: workout.distance, unit: UnitLength.meters).formatted(.measurement(width: .abbreviated, usage: .road)))
-                // TODO: 歩数表示にする
-                Text(localizedString(from: workout.stepCount,number: NumberFormatter.Style.decimal)
-//                    Measurement(value: , unit: UnitLength.steps).formatted(.measurement(width: .abbreviated, usage: .road))
+                // 歩数
+                Text(
+                    String.localizedStringWithFormat("%d 歩", workout.stepCount)
                 )
             }
             .font(.system(.title, design: .rounded).monospacedDigit().lowercaseSmallCaps())

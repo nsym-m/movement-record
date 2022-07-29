@@ -8,8 +8,11 @@
 import Foundation
 import HealthKit
 import SwiftUI
+import CoreMotion
 
 class WorkoutModel: NSObject, ObservableObject {
+    
+    private let pedometer: CMPedometer = CMPedometer()
     
     var selectedWorkout: HKWorkoutActivityType? {
         didSet {
@@ -78,6 +81,14 @@ class WorkoutModel: NSObject, ObservableObject {
         }
     }
 
+    func calculateWalkStep(startDate: Date) {
+        pedometer.queryPedometerData(from: startDate, to: Date()) { (data, error) in
+            DispatchQueue.main.async {
+                self.stepCount = data?.numberOfSteps.intValue ?? 0
+            }
+        }
+    }
+
     // Request authorization to access HealthKit.
     func requestAuthorization() {
         // The quantity type to write to the health store.
@@ -127,7 +138,7 @@ class WorkoutModel: NSObject, ObservableObject {
 
     // MARK: - Workout Metrics
     @Published var distance: Double = 0
-    @Published var stepCount: Double = 0
+    @Published var stepCount: Int = 0
     @Published var workout: HKWorkout?
 
     func updateForStatistics(_ statistics: HKStatistics?) {
@@ -138,9 +149,7 @@ class WorkoutModel: NSObject, ObservableObject {
             case HKQuantityType.quantityType(forIdentifier: .distanceWalkingRunning), HKQuantityType.quantityType(forIdentifier: .distanceCycling):
                 let meterUnit = HKUnit.meter()
                 self.distance = statistics.sumQuantity()?.doubleValue(for: meterUnit) ?? 0
-            case HKQuantityType.quantityType(forIdentifier: .stepCount):
-                let stepUnit = HKUnit.count()
-                self.stepCount = statistics.sumQuantity()?.doubleValue(for: stepUnit) ?? 0
+                self.calculateWalkStep(startDate: statistics.startDate)
             default:
                 return
             }
