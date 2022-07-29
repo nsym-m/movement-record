@@ -24,25 +24,32 @@ struct SummaryView: View {
         } else {
             ScrollView {
                 VStack(alignment: .leading) {
-                    // TODO: 歩数表示、腕立て伏せ版Summary作成
-                    SummaryMetricView(title: "Total Time",
+                    // TODO: 腕立て伏せ版Summary作成
+                    SummaryMetricView(title: "歩いた時間",
                                       value: durationFormatter.string(from: workout.workout?.duration ?? 0.0) ?? "")
                         .foregroundStyle(.yellow)
-                    SummaryMetricView(title: "Total Distance",
+                    SummaryMetricView(title: "歩いた距離",
                                       value: Measurement(value: workout.workout?.totalDistance?.doubleValue(for: .meter()) ?? 0,
                                                          unit: UnitLength.meters)
                                         .formatted(.measurement(width: .abbreviated,
                                                                 usage: .road,
                                                                 numberFormatStyle: .number.precision(.fractionLength(2)))))
                         .foregroundStyle(.green)
-                    // TODO: Twitter投稿
-                    Button("Done") {
+                    SummaryMetricView(title: "合計歩数",
+                                      value: String.localizedStringWithFormat("%d 歩", workout.stepCount))
+                        .foregroundStyle(.yellow)
+                        
+                    Button("Twitterに投稿") {
+                        // TODO: Twitter投稿
+                    }
+                    
+                    Button("閉じる") {
                         dismiss()
                     }
                 }
                 .scenePadding()
             }
-            .navigationTitle("Summary")
+            .navigationTitle("結果")
             .navigationBarTitleDisplayMode(.inline)
         }
     }
