@@ -35,6 +35,7 @@
 		172AA7AE284D041700B42DA4 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172AA7AD284D041700B42DA4 /* HomeViewModel.swift */; };
 		172AA7B3284D237B00B42DA4 /* WorkoutModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172AA7B2284D237B00B42DA4 /* WorkoutModel.swift */; };
 		1736BC172857AAC800D65CE8 /* HKWorkoutActivityType+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1736BC162857AAC800D65CE8 /* HKWorkoutActivityType+.swift */; };
+		17A30F692895A84E0082BED4 /* Twitter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A30F682895A84E0082BED4 /* Twitter.swift */; };
 		17CFBC3A2854D00900599FE7 /* ControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17CFBC392854D00900599FE7 /* ControlView.swift */; };
 		17CFBC3C2854D31B00599FE7 /* PushUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17CFBC3B2854D31B00599FE7 /* PushUpView.swift */; };
 		17CFBC3E2854D32B00599FE7 /* WalkingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17CFBC3D2854D32B00599FE7 /* WalkingView.swift */; };
@@ -42,6 +43,9 @@
 		17CFBC422855BA1D00599FE7 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17CFBC3328548B6B00599FE7 /* HealthKit.framework */; };
 		17CFBC452855C70F00599FE7 /* ElapsedTimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17CFBC442855C70F00599FE7 /* ElapsedTimeView.swift */; };
 		17CFBC482856379700599FE7 /* SummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17CFBC472856379700599FE7 /* SummaryView.swift */; };
+		2C950B94A07CC3B39DC75FE5 /* Pods_movement_record_WatchKit_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1558C72764AC28007FD3DD24 /* Pods_movement_record_WatchKit_Extension.framework */; };
+		49736C0CE8268889344C6338 /* Pods_movement_record.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86523FAFB97E4D24D9648717 /* Pods_movement_record.framework */; };
+		ED1A92EC948308D656220CCC /* Pods_movement_record_WatchKit_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 690F5EF602D2961504AE11EF /* Pods_movement_record_WatchKit_App.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -115,6 +119,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1558C72764AC28007FD3DD24 /* Pods_movement_record_WatchKit_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_movement_record_WatchKit_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		172AA723284CA3D700B42DA4 /* movement-record.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "movement-record.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		172AA726284CA3D700B42DA4 /* movement_recordApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = movement_recordApp.swift; sourceTree = "<group>"; };
 		172AA728284CA3D700B42DA4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -151,6 +156,8 @@
 		172AA7AD284D041700B42DA4 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		172AA7B2284D237B00B42DA4 /* WorkoutModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutModel.swift; sourceTree = "<group>"; };
 		1736BC162857AAC800D65CE8 /* HKWorkoutActivityType+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HKWorkoutActivityType+.swift"; sourceTree = "<group>"; };
+		17A30F6728959BBF0082BED4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		17A30F682895A84E0082BED4 /* Twitter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Twitter.swift; sourceTree = "<group>"; };
 		17CFBC3328548B6B00599FE7 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS8.5.sdk/System/Library/Frameworks/HealthKit.framework; sourceTree = DEVELOPER_DIR; };
 		17CFBC3528548BBB00599FE7 /* movement-record WatchKit ExtensionDebug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "movement-record WatchKit ExtensionDebug.entitlements"; sourceTree = "<group>"; };
 		17CFBC392854D00900599FE7 /* ControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlView.swift; sourceTree = "<group>"; };
@@ -160,6 +167,14 @@
 		17CFBC402855BA0000599FE7 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/HealthKit.framework; sourceTree = DEVELOPER_DIR; };
 		17CFBC442855C70F00599FE7 /* ElapsedTimeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElapsedTimeView.swift; sourceTree = "<group>"; };
 		17CFBC472856379700599FE7 /* SummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryView.swift; sourceTree = "<group>"; };
+		49C02A3AE7DA6B8C33766100 /* Pods-movement-record WatchKit Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-movement-record WatchKit Extension.release.xcconfig"; path = "Target Support Files/Pods-movement-record WatchKit Extension/Pods-movement-record WatchKit Extension.release.xcconfig"; sourceTree = "<group>"; };
+		5E286E4AE4B57F1BA2683694 /* Pods-movement-record WatchKit Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-movement-record WatchKit Extension.debug.xcconfig"; path = "Target Support Files/Pods-movement-record WatchKit Extension/Pods-movement-record WatchKit Extension.debug.xcconfig"; sourceTree = "<group>"; };
+		690F5EF602D2961504AE11EF /* Pods_movement_record_WatchKit_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_movement_record_WatchKit_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A8BA9E8ED81864CF51E323B /* Pods-movement-record WatchKit App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-movement-record WatchKit App.debug.xcconfig"; path = "Target Support Files/Pods-movement-record WatchKit App/Pods-movement-record WatchKit App.debug.xcconfig"; sourceTree = "<group>"; };
+		807D35AE5B25464995DB2DA5 /* Pods-movement-record.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-movement-record.debug.xcconfig"; path = "Target Support Files/Pods-movement-record/Pods-movement-record.debug.xcconfig"; sourceTree = "<group>"; };
+		86523FAFB97E4D24D9648717 /* Pods_movement_record.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_movement_record.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BFE7EBF9B3D1EF25679EABA /* Pods-movement-record WatchKit App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-movement-record WatchKit App.release.xcconfig"; path = "Target Support Files/Pods-movement-record WatchKit App/Pods-movement-record WatchKit App.release.xcconfig"; sourceTree = "<group>"; };
+		98472F8EBEE27631E575CA53 /* Pods-movement-record.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-movement-record.release.xcconfig"; path = "Target Support Files/Pods-movement-record/Pods-movement-record.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -168,6 +183,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				17CFBC412855BA0000599FE7 /* HealthKit.framework in Frameworks */,
+				49736C0CE8268889344C6338 /* Pods_movement_record.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -190,6 +206,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				17CFBC422855BA1D00599FE7 /* HealthKit.framework in Frameworks */,
+				2C950B94A07CC3B39DC75FE5 /* Pods_movement_record_WatchKit_Extension.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -204,6 +221,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D55AC74DDCE9CBBDE7668EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED1A92EC948308D656220CCC /* Pods_movement_record_WatchKit_App.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -223,6 +248,7 @@
 				172AA779284CA3E100B42DA4 /* movement-record WatchKit AppUITests */,
 				172AA724284CA3D700B42DA4 /* Products */,
 				17CFBC3228548B6B00599FE7 /* Frameworks */,
+				865E945281E47A01204E3FF9 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -243,11 +269,13 @@
 		172AA725284CA3D700B42DA4 /* movement-record */ = {
 			isa = PBXGroup;
 			children = (
+				17A30F6728959BBF0082BED4 /* Info.plist */,
 				17CFBC3F2855BA0000599FE7 /* movement-recordDebug.entitlements */,
 				172AA726284CA3D700B42DA4 /* movement_recordApp.swift */,
 				172AA728284CA3D700B42DA4 /* ContentView.swift */,
 				172AA72A284CA3DD00B42DA4 /* Assets.xcassets */,
 				172AA72C284CA3DD00B42DA4 /* Preview Content */,
+				17A30F682895A84E0082BED4 /* Twitter.swift */,
 			);
 			path = "movement-record";
 			sourceTree = "<group>";
@@ -288,10 +316,10 @@
 		172AA756284CA3DF00B42DA4 /* movement-record WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
-				1736BC182857B57100D65CE8 /* Views */,
-				1736BC122857AA1000D65CE8 /* Utilities */,
-				17CFBC3528548BBB00599FE7 /* movement-record WatchKit ExtensionDebug.entitlements */,
 				172AA7B1284D141800B42DA4 /* Models */,
+				1736BC122857AA1000D65CE8 /* Utilities */,
+				1736BC182857B57100D65CE8 /* Views */,
+				17CFBC3528548BBB00599FE7 /* movement-record WatchKit ExtensionDebug.entitlements */,
 				172AA757284CA3DF00B42DA4 /* movement_recordApp.swift */,
 				172AA759284CA3DF00B42DA4 /* ContentView.swift */,
 				172AA75B284CA3DF00B42DA4 /* NotificationController.swift */,
@@ -409,6 +437,9 @@
 			children = (
 				17CFBC402855BA0000599FE7 /* HealthKit.framework */,
 				17CFBC3328548B6B00599FE7 /* HealthKit.framework */,
+				86523FAFB97E4D24D9648717 /* Pods_movement_record.framework */,
+				690F5EF602D2961504AE11EF /* Pods_movement_record_WatchKit_App.framework */,
+				1558C72764AC28007FD3DD24 /* Pods_movement_record_WatchKit_Extension.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -437,6 +468,19 @@
 			path = Summary;
 			sourceTree = "<group>";
 		};
+		865E945281E47A01204E3FF9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				807D35AE5B25464995DB2DA5 /* Pods-movement-record.debug.xcconfig */,
+				98472F8EBEE27631E575CA53 /* Pods-movement-record.release.xcconfig */,
+				7A8BA9E8ED81864CF51E323B /* Pods-movement-record WatchKit App.debug.xcconfig */,
+				8BFE7EBF9B3D1EF25679EABA /* Pods-movement-record WatchKit App.release.xcconfig */,
+				5E286E4AE4B57F1BA2683694 /* Pods-movement-record WatchKit Extension.debug.xcconfig */,
+				49C02A3AE7DA6B8C33766100 /* Pods-movement-record WatchKit Extension.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -444,10 +488,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 172AA788284CA3E100B42DA4 /* Build configuration list for PBXNativeTarget "movement-record" */;
 			buildPhases = (
+				26FC449969BF9640C357F7F1 /* [CP] Check Pods Manifest.lock */,
 				172AA71F284CA3D700B42DA4 /* Sources */,
 				172AA720284CA3D700B42DA4 /* Frameworks */,
 				172AA721284CA3D700B42DA4 /* Resources */,
 				172AA787284CA3E100B42DA4 /* Embed Watch Content */,
+				820C9F908861F23F99FBE4D2 /* [CP] Embed Pods Frameworks */,
+				12A999D11CF848EDA44A6CFF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -499,8 +546,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 172AA784284CA3E100B42DA4 /* Build configuration list for PBXNativeTarget "movement-record WatchKit App" */;
 			buildPhases = (
+				6B6B2EEFFA42F53F5292B304 /* [CP] Check Pods Manifest.lock */,
 				172AA745284CA3DD00B42DA4 /* Resources */,
 				172AA783284CA3E100B42DA4 /* Embed App Extensions */,
+				9D55AC74DDCE9CBBDE7668EC /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -516,6 +565,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 172AA780284CA3E100B42DA4 /* Build configuration list for PBXNativeTarget "movement-record WatchKit Extension" */;
 			buildPhases = (
+				1B858997B4AA6E9248A6B689 /* [CP] Check Pods Manifest.lock */,
 				172AA74E284CA3DF00B42DA4 /* Sources */,
 				172AA74F284CA3DF00B42DA4 /* Frameworks */,
 				172AA750284CA3DF00B42DA4 /* Resources */,
@@ -683,12 +733,116 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		12A999D11CF848EDA44A6CFF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-movement-record/Pods-movement-record-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-movement-record/Pods-movement-record-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-movement-record/Pods-movement-record-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1B858997B4AA6E9248A6B689 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-movement-record WatchKit Extension-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		26FC449969BF9640C357F7F1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-movement-record-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6B6B2EEFFA42F53F5292B304 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-movement-record WatchKit App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		820C9F908861F23F99FBE4D2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-movement-record/Pods-movement-record-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-movement-record/Pods-movement-record-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-movement-record/Pods-movement-record-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		172AA71F284CA3D700B42DA4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				172AA729284CA3D700B42DA4 /* ContentView.swift in Sources */,
+				17A30F692895A84E0082BED4 /* Twitter.swift in Sources */,
 				172AA727284CA3D700B42DA4 /* movement_recordApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -901,6 +1055,7 @@
 		};
 		172AA781284CA3E100B42DA4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E286E4AE4B57F1BA2683694 /* Pods-movement-record WatchKit Extension.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_ENTITLEMENTS = "movement-record WatchKit Extension/movement-record WatchKit ExtensionDebug.entitlements";
@@ -934,6 +1089,7 @@
 		};
 		172AA782284CA3E100B42DA4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49C02A3AE7DA6B8C33766100 /* Pods-movement-record WatchKit Extension.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
@@ -967,6 +1123,7 @@
 		};
 		172AA785284CA3E100B42DA4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A8BA9E8ED81864CF51E323B /* Pods-movement-record WatchKit App.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -993,6 +1150,7 @@
 		};
 		172AA786284CA3E100B42DA4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BFE7EBF9B3D1EF25679EABA /* Pods-movement-record WatchKit App.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -1020,6 +1178,7 @@
 		};
 		172AA789284CA3E100B42DA4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 807D35AE5B25464995DB2DA5 /* Pods-movement-record.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -1031,6 +1190,7 @@
 				DEVELOPMENT_TEAM = PPLG2268AY;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "movement-record/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -1054,6 +1214,7 @@
 		};
 		172AA78A284CA3E100B42DA4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98472F8EBEE27631E575CA53 /* Pods-movement-record.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -1064,6 +1225,7 @@
 				DEVELOPMENT_TEAM = PPLG2268AY;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "movement-record/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
