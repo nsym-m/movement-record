@@ -38,3 +38,17 @@ stopで測定終了
 
 iPhone側にある
 Twitterと連携させる機能
+
+Twitterとの連携のさせ方についてメモ
+- iOS側
+    - Twitterに開発者登録
+    - TwitterKitを利用してログイン
+    - ログイン情報をKeychainに保存しKeychain Sharingで共有可能にする
+- watchOS側
+    - watchOS側ではTwitterKitが使えない
+    - watchOSからKeychainにアクセスして認証情報を取得してツイートをする方針
+        - 参考
+        - [iOSウィジェットから認証済みAPIリクエストを送信する方法](https://zenn.dev/u_motion/articles/3bd96be9d60b91)
+        - [Sharing tokens between iOS, macOS and watchOS app using the iCloud KeyChain](https://damian.fyi/swift/2020/07/23/sharing-tokens-between-macos-ios-and-watchos-using-icloud-keychain.html)
+        - [Access to Shared iOS Keychain with WatchOS](https://developer.apple.com/forums/thread/79866)
+    - ツイートをするのは普通のTwitter APIへのリクエスト
