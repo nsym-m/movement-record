@@ -1,0 +1,20 @@
+//
+//  HomeView.swift
+//  movement-record
+//
+//  Created by 西山幹也 on 2022/07/31.
+//
+
+import SwiftUI
+
+struct HomeView: View {
+    var body: some View {
+        Text("Home")
+    }
+}
+
+struct HomeView_Previews: PreviewProvider {
+    static var previews: some View {
+        HomeView()
+    }
+}

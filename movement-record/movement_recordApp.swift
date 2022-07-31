@@ -11,7 +11,7 @@ import SwiftUI
 struct movement_recordApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            BaseTabView()
         }
     }
 }

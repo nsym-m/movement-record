@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		172AA727284CA3D700B42DA4 /* movement_recordApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172AA726284CA3D700B42DA4 /* movement_recordApp.swift */; };
-		172AA729284CA3D700B42DA4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172AA728284CA3D700B42DA4 /* ContentView.swift */; };
 		172AA72B284CA3DD00B42DA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 172AA72A284CA3DD00B42DA4 /* Assets.xcassets */; };
 		172AA72E284CA3DD00B42DA4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 172AA72D284CA3DD00B42DA4 /* Preview Assets.xcassets */; };
 		172AA738284CA3DD00B42DA4 /* movement_recordTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172AA737284CA3DD00B42DA4 /* movement_recordTests.swift */; };
@@ -18,7 +17,6 @@
 		172AA74D284CA3DF00B42DA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 172AA74C284CA3DF00B42DA4 /* Assets.xcassets */; };
 		172AA753284CA3DF00B42DA4 /* movement-record WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 172AA752284CA3DF00B42DA4 /* movement-record WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		172AA758284CA3DF00B42DA4 /* movement_recordApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172AA757284CA3DF00B42DA4 /* movement_recordApp.swift */; };
-		172AA75A284CA3DF00B42DA4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172AA759284CA3DF00B42DA4 /* ContentView.swift */; };
 		172AA75C284CA3DF00B42DA4 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172AA75B284CA3DF00B42DA4 /* NotificationController.swift */; };
 		172AA75E284CA3DF00B42DA4 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172AA75D284CA3DF00B42DA4 /* NotificationView.swift */; };
 		172AA760284CA3DF00B42DA4 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172AA75F284CA3DF00B42DA4 /* ComplicationController.swift */; };
@@ -36,6 +34,9 @@
 		172AA7B3284D237B00B42DA4 /* WorkoutModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172AA7B2284D237B00B42DA4 /* WorkoutModel.swift */; };
 		1736BC172857AAC800D65CE8 /* HKWorkoutActivityType+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1736BC162857AAC800D65CE8 /* HKWorkoutActivityType+.swift */; };
 		17A30F692895A84E0082BED4 /* Twitter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A30F682895A84E0082BED4 /* Twitter.swift */; };
+		17A30F6C289646ED0082BED4 /* BaseTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A30F6B289646ED0082BED4 /* BaseTabView.swift */; };
+		17A30F6F289649FB0082BED4 /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A30F6E289649FB0082BED4 /* SettingView.swift */; };
+		17A30F7228964C480082BED4 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A30F7128964C480082BED4 /* HomeView.swift */; };
 		17CFBC3A2854D00900599FE7 /* ControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17CFBC392854D00900599FE7 /* ControlView.swift */; };
 		17CFBC3C2854D31B00599FE7 /* PushUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17CFBC3B2854D31B00599FE7 /* PushUpView.swift */; };
 		17CFBC3E2854D32B00599FE7 /* WalkingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17CFBC3D2854D32B00599FE7 /* WalkingView.swift */; };
@@ -122,7 +123,6 @@
 		1558C72764AC28007FD3DD24 /* Pods_movement_record_WatchKit_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_movement_record_WatchKit_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		172AA723284CA3D700B42DA4 /* movement-record.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "movement-record.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		172AA726284CA3D700B42DA4 /* movement_recordApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = movement_recordApp.swift; sourceTree = "<group>"; };
-		172AA728284CA3D700B42DA4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		172AA72A284CA3DD00B42DA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		172AA72D284CA3DD00B42DA4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		172AA733284CA3DD00B42DA4 /* movement-recordTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "movement-recordTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -134,7 +134,6 @@
 		172AA74C284CA3DF00B42DA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		172AA752284CA3DF00B42DA4 /* movement-record WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "movement-record WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		172AA757284CA3DF00B42DA4 /* movement_recordApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = movement_recordApp.swift; sourceTree = "<group>"; };
-		172AA759284CA3DF00B42DA4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		172AA75B284CA3DF00B42DA4 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
 		172AA75D284CA3DF00B42DA4 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
 		172AA75F284CA3DF00B42DA4 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
@@ -158,6 +157,9 @@
 		1736BC162857AAC800D65CE8 /* HKWorkoutActivityType+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HKWorkoutActivityType+.swift"; sourceTree = "<group>"; };
 		17A30F6728959BBF0082BED4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		17A30F682895A84E0082BED4 /* Twitter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Twitter.swift; sourceTree = "<group>"; };
+		17A30F6B289646ED0082BED4 /* BaseTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTabView.swift; sourceTree = "<group>"; };
+		17A30F6E289649FB0082BED4 /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
+		17A30F7128964C480082BED4 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		17CFBC3328548B6B00599FE7 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS8.5.sdk/System/Library/Frameworks/HealthKit.framework; sourceTree = DEVELOPER_DIR; };
 		17CFBC3528548BBB00599FE7 /* movement-record WatchKit ExtensionDebug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "movement-record WatchKit ExtensionDebug.entitlements"; sourceTree = "<group>"; };
 		17CFBC392854D00900599FE7 /* ControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlView.swift; sourceTree = "<group>"; };
@@ -269,10 +271,10 @@
 		172AA725284CA3D700B42DA4 /* movement-record */ = {
 			isa = PBXGroup;
 			children = (
+				17A30F6A289646B70082BED4 /* Views */,
 				17A30F6728959BBF0082BED4 /* Info.plist */,
 				17CFBC3F2855BA0000599FE7 /* movement-recordDebug.entitlements */,
 				172AA726284CA3D700B42DA4 /* movement_recordApp.swift */,
-				172AA728284CA3D700B42DA4 /* ContentView.swift */,
 				172AA72A284CA3DD00B42DA4 /* Assets.xcassets */,
 				172AA72C284CA3DD00B42DA4 /* Preview Content */,
 				17A30F682895A84E0082BED4 /* Twitter.swift */,
@@ -321,7 +323,6 @@
 				1736BC182857B57100D65CE8 /* Views */,
 				17CFBC3528548BBB00599FE7 /* movement-record WatchKit ExtensionDebug.entitlements */,
 				172AA757284CA3DF00B42DA4 /* movement_recordApp.swift */,
-				172AA759284CA3DF00B42DA4 /* ContentView.swift */,
 				172AA75B284CA3DF00B42DA4 /* NotificationController.swift */,
 				172AA75D284CA3DF00B42DA4 /* NotificationView.swift */,
 				172AA75F284CA3DF00B42DA4 /* ComplicationController.swift */,
@@ -430,6 +431,32 @@
 				172AA79D284CBFA700B42DA4 /* Walking */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		17A30F6A289646B70082BED4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				17A30F7028964C2E0082BED4 /* Home */,
+				17A30F6D289649D00082BED4 /* Setting */,
+				17A30F6B289646ED0082BED4 /* BaseTabView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		17A30F6D289649D00082BED4 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				17A30F6E289649FB0082BED4 /* SettingView.swift */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		17A30F7028964C2E0082BED4 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				17A30F7128964C480082BED4 /* HomeView.swift */,
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 		17CFBC3228548B6B00599FE7 /* Frameworks */ = {
@@ -841,7 +868,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				172AA729284CA3D700B42DA4 /* ContentView.swift in Sources */,
+				17A30F6F289649FB0082BED4 /* SettingView.swift in Sources */,
+				17A30F6C289646ED0082BED4 /* BaseTabView.swift in Sources */,
+				17A30F7228964C480082BED4 /* HomeView.swift in Sources */,
 				17A30F692895A84E0082BED4 /* Twitter.swift in Sources */,
 				172AA727284CA3D700B42DA4 /* movement_recordApp.swift in Sources */,
 			);
@@ -875,7 +904,6 @@
 				172AA7AA284CFBCB00B42DA4 /* WorkoutView.swift in Sources */,
 				1736BC172857AAC800D65CE8 /* HKWorkoutActivityType+.swift in Sources */,
 				172AA75C284CA3DF00B42DA4 /* NotificationController.swift in Sources */,
-				172AA75A284CA3DF00B42DA4 /* ContentView.swift in Sources */,
 				172AA7AC284CFFFD00B42DA4 /* WorkoutViewModel.swift in Sources */,
 				17CFBC452855C70F00599FE7 /* ElapsedTimeView.swift in Sources */,
 				172AA760284CA3DF00B42DA4 /* ComplicationController.swift in Sources */,
